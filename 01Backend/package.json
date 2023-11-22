@@ -1,0 +1,19 @@
+{
+  "name": "01backend",
+  "version": "1.0.0",
+  "description": "learning project from chai or code",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "author": "Jatin Bisht",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
