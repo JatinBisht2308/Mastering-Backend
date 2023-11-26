@@ -2,12 +2,12 @@ import express from 'express';
 
 const app = express();
 
-app.get('/',(req,res)=>{
+app.get('/api/',(req,res)=>{
    console.log("Server is ready");
    res.send('<h1>Home route pe aapka swagat ha</h1>');
 });
 
-app.get('/jokes',(req,res)=>{
+app.get('/api/jokes',(req,res)=>{
    const jokes = [
     {
       "id": 1,
